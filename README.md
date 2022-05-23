@@ -2,7 +2,7 @@
 Nginx auth file .htpasswd, that contain in main directory. To work nginx auth insert .htpasswd file to conf directory in nginx directory.
 And insert next info to nginx.conf that conain in nginx directory
 
- location / {
+        location / {
             # path to mysql,mysqli,phpmyadmin
             root   phpmyadmin; 
             index  index.php;
