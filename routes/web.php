@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::middleware(['auth'])->group(function() {
+
 Route::get('/',[CategoryController::class,'manageCategory'])->name('get');
 Route::post('category',[CategoryController::class,'storeCategory'])->name('category');
-});
 Auth::routes();
